@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap');
+
+*{
+    @apply box-border scroll-smooth box-border;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.my-link{
+    @apply text-second m-4 hover:text-third w-auto ; 
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
